@@ -1,0 +1,70 @@
+body{
+        margin:0;
+        width:100vw;
+        height:100vh;
+        background-color:#E5E6F1;
+        display:flex;
+        align-items:center;
+        text-align:center;
+        justify-content:center;
+        place-item:center;
+        overflow:hidden;
+        }
+        .container
+        {
+        position:relative;
+        width:350px;
+        height:500px;
+        border-radius:15px;
+        padding:30px;
+        background:#99A0E7;
+        box-shadow: 1px 1px 20px #063B68,-1px -1px 20px #063B68;
+        }
+        .logo img
+        {
+        height:100px;
+        width:150px;
+        margin:auto;
+        border-radius:50%;
+        box-sizing:border-box;
+        }
+        .brand
+        {
+        margin-top:10px;
+        font-weight:bold;
+        font-size:1.6em;
+        color:#
+        }
+       label,input{
+       display:block;
+       width:100%;
+box-sizing:border-box;
+       padding:0;
+       border:none;
+       }
+       input[type="text"],   input[type="submit"]
+       {
+       margin-top:10px;
+       background-color:#fff;
+       padding:10px;
+       padding-left:20px;
+       height:40px;
+       font-size:16px;
+       border-radius:15px;
+       border:0.5 groove #123;
+
+       }
+       input[type="submit"]
+       {
+      background-color:#074F96;
+      color:#fff;
+      font-size:16px;
+       }
+  input[type="text"]:hover,   input[type="submit"]:hover
+       {
+     box-shadow:1px 1px 5px #FEFAD7,-1px -1px 5px #FEFAD7;
+     }
+     #err
+     {
+     color:red;
+     }
